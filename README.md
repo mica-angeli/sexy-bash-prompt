@@ -1,6 +1,8 @@
-# sexy-bash-prompt [![Build status](https://travis-ci.org/twolfson/sexy-bash-prompt.png?branch=master)](https://travis-ci.org/twolfson/sexy-bash-prompt)
+# sexy-bash-prompt [![Build status](https://travis-ci.org/mica-angeli/sexy-bash-prompt.png?branch=master)](https://travis-ci.org/mica-angeli/sexy-bash-prompt)
 
 [Bash][bash] prompt with colors, git statuses, and git branches.
+
+**SAME AS ORIGINAL, BUT NOW IN PINK! 💗**
 
 Providing a unique symbol for every combination of a dirty, unpulled, and unpushed `git` branch.
 
@@ -17,7 +19,7 @@ Forked from [a gist by gf3][sexy-bash-orig].
 [Support us with a monthly donation and help us continue our activities][donations] or [spread word on Twitter][twitter]
 
 [donations]: https://opencollective.com/sexy-bash-prompt#backer
-[twitter]: https://twitter.com/intent/tweet?text=Bash%20prompt%20with%20colors%2C%20git%20statuses%2C%20and%20git%20branches&url=https%3A%2F%2Fgithub.com%2Ftwolfson%2Fsexy-bash-prompt&via=sexybashprompt
+[twitter]: https://twitter.com/intent/tweet?text=Bash%20prompt%20with%20colors%2C%20git%20statuses%2C%20and%20git%20branches&url=https%3A%2F%2Fgithub.com%2Fmica-angeli%2Fsexy-bash-prompt&via=sexybashprompt
 
 <a href="https://opencollective.com/sexy-bash-prompt/backer/0/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/0/avatar.svg"></a>
 <a href="https://opencollective.com/sexy-bash-prompt/backer/1/website" target="_blank"><img src="https://opencollective.com/sexy-bash-prompt/backer/1/avatar.svg"></a>
@@ -88,7 +90,7 @@ Become a sponsor and get your logo on our README on GitHub with a link to your s
 One line install (requires `git`, `make`):
 
 ```bash
-(cd /tmp && ([[ -d sexy-bash-prompt ]] || git clone --depth 1 --config core.autocrlf=false https://github.com/twolfson/sexy-bash-prompt) && cd sexy-bash-prompt && make install) && source ~/.bashrc
+(cd /tmp && ([[ -d sexy-bash-prompt ]] || git clone --depth 1 --config core.autocrlf=false https://github.com/mica-angeli/sexy-bash-prompt) && cd sexy-bash-prompt && make install) && source ~/.bashrc
 
 ```
 
@@ -119,7 +121,7 @@ Requirements: `git`, `make`
 
 ```bash
 # Clone the repository
-git clone --depth 1 --config core.autocrlf=false https://github.com/twolfson/sexy-bash-prompt
+git clone --depth 1 --config core.autocrlf=false https://github.com/mica-angeli/sexy-bash-prompt
 # Cloning into 'sexy-bash-prompt'...
 # ...
 # Resolving deltas: 100% (13/13), done.
@@ -131,7 +133,7 @@ make install
 # # Copying .bash_prompt to ~/.bash_prompt
 # cp -f ".bash_prompt" "/home/todd/.bash_prompt"
 # ./install.bash
-# # twolfson/sexy-bash-prompt installation complete!
+# # mica-angeli/sexy-bash-prompt installation complete!
 
 # Rerun your ~/.bashrc
 source ~/.bashrc
@@ -220,7 +222,7 @@ Linux and Mac OSX are supported platforms.
 Windows is supported to the best of my abilities. However, there have been [font issues][putty-issue] with using [PuTTY][].
 
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
-[putty-issue]: https://github.com/twolfson/sexy-bash-prompt/issues/7
+[putty-issue]: https://github.com/mica-angeli/sexy-bash-prompt/issues/7
 
 ## Uninstallation
 To uninstall `sexy-bash-prompt`, perform the following steps:
