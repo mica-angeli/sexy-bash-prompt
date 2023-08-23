@@ -12,7 +12,7 @@ ps1_is_installed && exit 0
 
 # Add the .bash_prompt invocation to .bashrc
 echo "# Adding ~/.bash_prompt to ~/.bashrc"
-echo "# Run twolfson/sexy-bash-prompt" >> ~/.bashrc
+echo "# Run mica-angeli/sexy-bash-prompt" >> ~/.bashrc
 echo ". ~/.bash_prompt" >> ~/.bashrc
 
 # If our prompt is being loaded, leave
